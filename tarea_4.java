@@ -58,7 +58,7 @@ public class tarea_4 {
 
         System.out.println("Ingrese un número: ");
         int indeter = input.nextInt();
-
+        
         if (indeter % 2 == 0){
             System.out.println("Su número es par.");
         } else {
@@ -67,6 +67,6 @@ public class tarea_4 {
 
         input.close();
         
-        //YOU OWE ME TEN GRAND KID 
+        //YOU OWE ME TEN GRAND KID
     }
 }
