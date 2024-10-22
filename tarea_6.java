@@ -109,17 +109,20 @@ public class tarea_6 {
 
         if (usuario.matches(".*\\d.*")) {
             System.out.println("Error. Su nombre contiene números.");
-        } else if (edad_imss < 25) {
+        } else {
+            if (edad_imss < 25) {
             System.out.println("Usted no es elegible para beneficios.");
         } else {
             if (residencia.equalsIgnoreCase("México") && civil.equalsIgnoreCase("Casado")){
-                if (ingresos < 300000.00 && hijos){
+                if (ingresos < 300000.00){
+                    if (hijos){
                     System.out.println("Usted tiene un descuento del 10%");
                     descuento = 10.0;
                 } else {
                     System.out.println("Usted tiene un descuento del 5%");
                     descuento = 5.0;
                 }
+              }
             } else if (residencia.equalsIgnoreCase("México") && civil.equalsIgnoreCase("Soltero")){
                 if (ingresos < 400000.00){
                     System.out.println("Tiene decuento del 8%");
@@ -134,7 +137,7 @@ public class tarea_6 {
                 } else if (civil.equalsIgnoreCase("soltero") && ingresos < 200000.00){
                     System.out.println("Usted tiene un 7% de descuento.");
                     descuento = 7.0;
-                }
+                } 
                 if (hijos){
                     System.out.println("Se suma 3% de descuento");
                     descuento += 3.0;
@@ -149,15 +152,19 @@ public class tarea_6 {
                     System.out.println("Aplica un descuento del 3%");
                     descuento = 3.0;
                 }
+                if (ingresos < 200000.00){
+                    System.out.println("Aplica un descuento del 2%");
+                    descuento += 2.0;
+                }
+            } 
             }
         }
 
         System.out.println(usuario);
-        System.out.println("Descuento aplicado: " + descuento + "%");
-        double impuesto_neto = (ingresos * (1 - (descuento / 100)));
-        System.out.println("Monto final a pagar: " + impuesto_neto);
-
-
+        System.out.println("Descuento aplicable: " + descuento + "%");
+        double monto_final = ingresos - (ingresos * descuento / 100);
+        System.out.println("Monto final a pagar: " + monto_final);
+        
         input.close();
     }
 }
