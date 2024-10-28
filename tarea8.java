@@ -111,15 +111,15 @@ public class tarea8 {
 
         //vocales
         String cadena = "pablito traga un clavito";
-        int contadorVocales = 0;
-        int i = 0;
-        while (i < cadena.length()) {
-            char letra = Character.toLowerCase(cadena.charAt(i));
+        int contador_vocales = 0;
+        int posicion = 0;
+        while (posicion < cadena.length()) {
+            char letra = Character.toLowerCase(cadena.charAt(posicion));
             if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
-                contadorVocales++;
+                contador_vocales++;
             }
-            i++;
+            posicion++;
         }
-        System.out.println("La cadena tiene " + contadorVocales + " vocales.");
+        System.out.println("La cadena tiene " + contador_vocales + " vocales.");
     }
 }
