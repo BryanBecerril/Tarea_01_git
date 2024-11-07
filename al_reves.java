@@ -3,8 +3,9 @@ public class al_reves {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Primera palabra es:");
         String palabra = "Elon Musk";
-
+        System.out.println(" ");
         System.out.println("Ingresa tu palabra");
         String palabra_2 = input.nextLine();
 
