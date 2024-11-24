@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class ej_5{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Ingrese el número");
+        int numero = input.nextInt();
+        System.out.println(" ");
+        
+        int index = 0;
+        int num_guardados[] = new int[];
+        
+        if (numero <= 0){
+            System.out.println("Numero inválido. Intente de nuevo.");
+        } else{
+            boolean es_primo = true;
+
+            for (int i = 2; i < numero; i++) {
+                if (numero % i == 0) {
+                    es_primo = false;
+                    break;
+                }
+                num_guardados[index] = i;
+                index += 1;
+            }
+            if (es_primo) {
+                System.out.println("El número " + numero + " no tiene divisores aparte de 1 y si mismo.");
+            } else {
+                System.out.println("El número "+ numero + "tiene los divisores:");
+                for (i = 0; i < index; i++){
+                System.out.print( num_guardados[i] + ", ");
+                }
+            }
+        }
+
+
+    }
+}
