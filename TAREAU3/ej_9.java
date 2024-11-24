@@ -19,7 +19,7 @@ public class ej_9 {
         }
 
 
-        //pus ahí quedó prof. mmmm
+        //pus ahí quedó prof. mmmmmm
         //https://youtu.be/MzxYyYh55Vw?si=GmsQWDpeaFCqWH9Z&t=1442
         //para que sufra lo que yo sufrí.
     }

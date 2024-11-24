@@ -37,7 +37,7 @@ public class ej_2{
 
             //para que vea el esfuerzo de además agregar a un arreglo los numeros impares/pares e imprimirlos.
             //nomas para que sepa lo mucho que lo aprecio.
-            //                                 <3
+            //                                  <3
             System.out.println(" ");
             System.out.println("Cantidad de numeros pares: " + pares);
             System.out.println("Numeros pares fueron: ");

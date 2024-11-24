@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ej_4{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //aer q onda
+        //aer q ondam
         System.out.println("Ingrese el número");
         int numero = input.nextInt();
         System.out.println(" ");

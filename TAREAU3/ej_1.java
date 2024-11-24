@@ -26,7 +26,7 @@ public class ej_1 {
 
             }
         }
-        //IRON LUNGGGGSSSSS
+        //IRON LUNGGGGSSSS
 
     }
 }

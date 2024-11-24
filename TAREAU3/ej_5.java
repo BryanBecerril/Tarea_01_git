@@ -27,6 +27,6 @@ public class ej_5 {
             }
         }
 
-        //me duele al pensar
+        //me duele al pensard
     }
 }

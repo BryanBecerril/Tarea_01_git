@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ej_3{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //easy pici lemon squisi
+        //easy pici lemon squisi h
         
         System.out.println("¿Cuantos numeros desea de la secuencia fibonacci?");
         int cant_num = input.nextInt();

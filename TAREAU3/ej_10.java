@@ -29,6 +29,6 @@ public class ej_10 {
     } else {
         System.out.println(num_3 + ", " + num_2 + ", " + num_1);
     }
-    //me dolió hasta en el alma profe no me haga esto yo que lo quiero tanto :c
+    //me dolió hasta en el alma profe no me haga esto yo que lo quiero tanto :,c
     }
 }
