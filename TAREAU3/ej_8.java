@@ -6,6 +6,7 @@ public class ej_8 {
         //adivina adivinador quien no me adivine le doy un coscorrón
         int azar = (int)(Math.random() * 100) + 1;
         //System.out.println("Pureba numero al azar del 1 al 100: " + azar);
+        //pruebita
 
         System.out.println("Adivina el numero! Está de entre 1 y 100, padre");
         int intento = input.nextInt();

@@ -26,5 +26,7 @@ public class ej_5 {
                 System.out.println("El número " + numero + " no tiene divisores aparte de 1 y él mismo.");
             }
         }
+
+        //me duele al pensar
     }
 }

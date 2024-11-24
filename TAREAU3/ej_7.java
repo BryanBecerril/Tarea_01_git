@@ -28,7 +28,7 @@ public class ej_7 {
         } else {
             System.out.println("No es un número palíndromo");
         }
-
+        //segun yo ahi quedó
 
     }
 }
