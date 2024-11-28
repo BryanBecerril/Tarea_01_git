@@ -22,7 +22,7 @@ public class promedio{
         int esudiante_arriba = 0, estudiante_abajo = 0;
         //System.out.println("test " + califs[0]);
         for (int i = 0; i < estudiantes; i++) {
-            if (promedd < califs[i]){
+            if (promedd <= califs[i]){
                 esudiante_arriba++;
             }else{
                 estudiante_abajo++;
@@ -33,5 +33,7 @@ public class promedio{
         System.out.println(" ");
         System.out.println("Estudiantes abajo del promedio: " + estudiante_abajo);
 
+        input.close();
+        //nada mas para que arriba no diga q no se cerró xd
     }
 }
