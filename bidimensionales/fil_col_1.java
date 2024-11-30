@@ -16,7 +16,6 @@ public class fil_col_1 {
 
         int bloque[][] = new int[filas][columnas];
 
-        // Llenar la matriz con números aleatorios
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 bloque[i][j] = random.nextInt((max - min) + 1) + min;
@@ -26,7 +25,7 @@ public class fil_col_1 {
         System.out.println("Matriz generada:");
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
-                System.out.print(bloque[i][j] + "\t");
+                System.out.print(bloque[i][j] + " ");
             }
             System.out.println();
         }
