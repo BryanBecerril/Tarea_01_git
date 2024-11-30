@@ -47,7 +47,5 @@ public class fil_col_1 {
             }
             System.out.println("Suma de la columna " + (j + 1) + ": " + suma_col);
         }
-
-        input.close();
     }
 }

@@ -1,7 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-
-public class diagonales {
+public class diagonales_4 {
     public static void main(String[] args) {
         //Dada una matriz cuadrada n×n, calcula y muestra la suma 
         //de los elementos de la diagonal principal y de la secundaria.
