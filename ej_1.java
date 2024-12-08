@@ -21,6 +21,7 @@ public class ej_1 {
     private static void celsius_a_fahrenheit (double[] guardado, int veces, double[] devol){
         for (int i = 0; i < veces; i++) {
             System.out.println("Resultado de " + guardado[i] + "° Celcius a fahrenheit");
+            // Fahrenheit = Celsius * (9/5) + 32 pero con tu punto decimal pq luego no compila
             devol[i] = ((guardado[i] * (9.0 / 5.0)) + 32.0);
             System.out.println(devol[i] + "° Fahrenheit");
             System.out.println();
