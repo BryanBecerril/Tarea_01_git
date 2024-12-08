@@ -27,7 +27,6 @@ public class ej_1 {
             System.out.println();
         }
     }
-    //que si no me lo suma pq no es double y que si no me hace el cálculo pq no tiene decimal
-    //una finolis el java
-    //pero IRON LUNGGSSSS!!!!!1!!!
+
+    
 }
